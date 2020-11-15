@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 非活性時 -->
+    <item android:drawable="@drawable/button_greeting_mail_on" android:state_enabled="false" />
+    <!-- ボタンが押されてない時 -->
+    <item android:drawable="@drawable/button_greeting_mail_off" android:state_pressed="false" />
+    <!-- ボタンが押された時 -->
+    <item android:drawable="@drawable/button_greeting_mail_on" android:state_pressed="true" />
+</selector>

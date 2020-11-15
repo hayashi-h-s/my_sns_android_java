@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white">
+
+    <item>
+
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <stroke
+                        android:width="1dp"
+                        android:color="@color/app_main_orange_dark_color" />
+                </shape>
+            </item>
+            <item
+                android:top="4dp"
+                android:bottom="8dp"
+                android:right="8dp"
+                android:left="8dp"
+                android:drawable="@drawable/bt_kick">
+            </item>
+        </layer-list>
+
+    </item>
+
+</ripple>
